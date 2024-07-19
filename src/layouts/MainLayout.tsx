@@ -8,7 +8,7 @@ export default function MainLayout() {
   const isPageNotFound = pathname.includes('404');
 
   return (
-    <div className="hero">
+    <div className="hero text-white">
       {!isPageNotFound && <Navbar />}
       <Outlet />
       {!isPageNotFound && <Footer />}

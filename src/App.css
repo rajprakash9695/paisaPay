@@ -86,8 +86,14 @@
   background: linear-gradient(
     90deg,
     rgba(13, 11, 31, 0.9570203081232493) 0%,
-    rgba(109, 96, 166, 1) 38%,
-    rgba(137, 115, 208, 1) 69%,
+    rgba(36, 22, 96, 1) 36%,
+    rgba(58, 37, 125, 1) 70%,
     rgba(32, 25, 47, 0.9598214285714286) 100%
   );
+}
+
+.beta {
+  border: 10px solid;
+  border-radius: 30px;
+  border-image: linear-gradient(10deg from top, black 30%, blue) 2;
 }
